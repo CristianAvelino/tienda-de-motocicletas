@@ -1,13 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
+    background-color: #080808; /*utilizando el color de fondo oscuro hexadecimal #333*/
+    color: #fff; /*cambiando el color del texto a blanco para mejorar la legibilidad*/
+  }
+  
+
+  .titulo {
+    background-image: url('https://i.postimg.cc/YCn00cCt/logo-kawasaki-moto-black.jpg');
+    background-size: cover; /*para que la imagen ocupe todo el fondo*/
+    color: #fff; /*color de texto blanco para que se vea mejor*/
+    text-align: left; /*centrar el texto*/
+    padding: 50px 0; /*añadir un poco de espacio alrededor del texto*/
   }
   
   header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+    text-align: left;
   }
 
   h1, h2, h3 {
@@ -19,12 +30,17 @@ body {
     margin: 20px auto;
     padding: 0 20px;
   }
+
+  .foto-central{
+    display: flex;
+    justify-content: centers;
+  }
   
   img {
     max-width: 500px;
     height: auto;
-    display: block;
     margin: 20px auto;
+    border-radius: 10%;
   }
   
   ul {
